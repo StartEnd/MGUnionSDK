@@ -1,0 +1,6 @@
+framework module Pods_MGSDKDemo {
+  umbrella header "Pods-MGSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

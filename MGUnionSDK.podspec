@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MGUnionSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '微游戏SDK'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'MGUnionSDK/MGUnionSDK.framework'
   s.resources = 'MGUnionSDK/MGUnionSDKReso.bundle'
 
-  s.source_files = 'MGUnionSDK/Classes/**/*'
+  #s.source_files = 'MGUnionSDK/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MGUnionSDK' => ['MGUnionSDK/Assets/*.png']
