@@ -49,6 +49,7 @@ typedef NS_ENUM (NSInteger,MGAuthErrCode) {
 /// 用户信息界面,未登录用户会弹出绑定窗口
 + (void)userCenter;
 
+
 /**
  支付
  
@@ -108,6 +109,12 @@ typedef NS_ENUM (NSInteger,MGAuthErrCode) {
  @param orderid     订单标识
  */
 - (void)mg_oldOrderVerficationSuccess:(NSString *)orderid;
+
+
+/**
+ 退出游戏
+ */
+- (void)mg_exitGame;
 
 
 @end
